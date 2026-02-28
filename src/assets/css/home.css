@@ -1,0 +1,29 @@
+main{
+    width: 100%;
+    height: auto;
+    .hero{
+        width: 100%;
+background-color: #000000;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .hero-con{
+            width:  80%;
+
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            align-items: center;
+            justify-content: center;
+            .text-con{
+h1,p{
+          font-family: "Special Elite", system-ui;
+  font-weight: 500;
+  color: #123348;
+}
+            }
+        }
+    }
+}

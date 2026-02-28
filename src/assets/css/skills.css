@@ -1,0 +1,76 @@
+.skills-section {
+  text-align: center;
+
+
+  background-color: black;
+  padding: 100px;
+}
+h2{
+       font-family: "Special Elite", system-ui;
+  font-weight: 500;
+  color: white;
+}
+p{
+       font-family: "Special Elite", system-ui;
+  font-weight: 500;
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: #666;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.skill-card {
+  width: 180px;
+  height: 180px;
+  background: #ffffff;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  border: 2px solid rgba(128, 128, 128, 0.212);
+  cursor: pointer;
+  box-shadow: 4px 4px 4px #26175c;
+}
+
+.skill-card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+.skill-card h3 {
+  margin: 5px 0;
+  font-weight: 700;
+        font-family: "Special Elite", system-ui;
+  font-weight: 500;
+  color: #7b63d386;
+}
+
+.skill-card p {
+  color: #17185c;
+        font-family: "Special Elite", system-ui;
+  font-weight: 500;
+
+}
+
+
+.skill-card:hover {
+  background:#26175c;
+  color: white;
+  transform: translateY(-8px);
+}
+
+.skill-card:hover p {
+  color: white;
+}

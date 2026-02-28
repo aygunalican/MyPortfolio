@@ -1,0 +1,42 @@
+footer{
+    background-color: #ffffff; 
+    .container{
+        p{
+    color: #26175C;
+  font-family: "Special Elite", system-ui;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+span{
+    color: blue;
+}}
+}
+ul{
+    li{
+        a{
+            
+  font-family: "Special Elite", system-ui;
+  font-weight: 500;
+  font-size: 17px;
+color: #26175C;
+  font-style: normal;
+        }
+    }
+}
+
+.scroll-top {
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.scroll-top:hover {
+    transform: translateY(-5px);
+    color: #4a2cb4;
+}
+
+
+footer a.text-decoration-none:hover {
+    color: #4f35af;
+}
+
+}
