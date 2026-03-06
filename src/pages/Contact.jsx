@@ -5,9 +5,7 @@ const Contact = () => {
     <section id='contact' className="contact">
   <div className="contact-con">
       <h2>Lets work together!</h2>
-      <p>
-     On dekande mydurtad mora även om skurkstat. Semirade timaheten rena. Radiogen pasam inte loba även om prerade i garanterad traditionell specialitet till bebel.
-      </p>
+<p>I’m always open to new ideas, projects, and collaborations. Get in touch!</p>
 
       <form className="contact-form">
         <div className="wow">

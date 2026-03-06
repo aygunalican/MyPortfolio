@@ -4,7 +4,8 @@
 
   gap: 50px;
 }
-.experedu{
+
+.experedu {
   width: 100%;
   height: auto;
 
@@ -12,11 +13,12 @@
 }
 
 .column h2 {
-  color:   white;
+  color: white;
   font-size: 40px;
-        font-family: "Special Elite", system-ui;
+  font-family: "VT323", monospace;
   font-weight: 500;
-  margin-bottom: 60px;  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-top: 100px;
 }
 
 .card {
@@ -24,13 +26,13 @@
   padding: 25px;
   border-radius: 18px;
   margin-bottom: 20px;
-  box-shadow: 0 10px 30px   rgba(29, 18, 177, 0.2);
+  box-shadow: 0 10px 30px rgba(29, 18, 177, 0.2);
   transition: 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px   rgba(29, 18, 177, 0.2);
+  box-shadow: 0 20px 40px rgba(29, 18, 177, 0.2);
 }
 
 .year {
@@ -38,8 +40,64 @@
   font-size: 14px;
   font-weight: 600;
 }
-h3{
-        font-family: "Special Elite", system-ui;
+
+h3 {
+  font-family: "VT323", monospace;
   font-weight: 500;
   color: #1d2377;
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .exp-edu-wrapper {
+    grid-template-columns: 1fr;
+    /* 1 sütun */
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .column h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .year {
+    font-size: 13px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+/* Smartfonlar (max-width: 767px) */
+@media (max-width: 767px) {
+  .exp-edu-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .column h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .year {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
 }

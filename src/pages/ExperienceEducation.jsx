@@ -5,37 +5,37 @@ export default function ExperienceEducation() {
 
   const experienceData = [
     {
-      year: "2022 - Present",
-      title: "Programming Course",
-      place: "Blockdots, London",
+      year: "2025",
+      title:"Remote Intern",
+      place: "Intern Intelligence"
     },
     {
-      year: "2021 - 2022",
-      title: "CMS Course",
-      place: "Parsons, The New School",
+      year: "2025",
+      title: "Remote Intern",
+      place: "CodeAlpha",
     },
     {
-      year: "2020 - 2021",
-      title: "Web Design Course",
-      place: "House of Life, Leeds",
+      year: "2025-2026",
+      title:  "Front-End Projects",
+      place: "Matrix Academy",
     },
   ];
 
   const educationData = [
     {
-      year: "2020 - 2023",
-      title: "Blockdots",
-      place: "Harvard University",
+      year: "2025 - 2026",
+      title: "Matrix Front-End Course",
+      place: "Matrix Academy",
     },
     {
-      year: "2016 - 2020",
-      title: "Parsons, The New School",
+      year: "2022 - 2026",
+      title: "Computer Engineering",
       place: "University of Denmark",
     },
     {
-      year: "2012 - 2015",
-      title: "IDEO",
-      place: "University of California",
+      year: "2010 - 2021",
+      title: "Zaqtalaa School",
+      place: "AZEL"
     },
   ];
 

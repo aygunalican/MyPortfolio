@@ -1,42 +1,51 @@
-footer{
-    background-color: #ffffff; 
-    .container{
-        p{
-    color: #26175C;
-  font-family: "Special Elite", system-ui;
-  font-weight: 500;
-  font-size: 14px;
-  font-style: normal;
-span{
-    color: blue;
-}}
-}
-ul{
-    li{
-        a{
-            
-  font-family: "Special Elite", system-ui;
-  font-weight: 500;
-  font-size: 17px;
-color: #26175C;
-  font-style: normal;
+footer {
+
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border-radius: 40px;
+
+    .container {
+        p {
+            color: #26175C;
+            font-family: "VT323", monospace;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: normal;
+
+            span {
+                color: rgb(20, 20, 80);
+            }
         }
     }
-}
 
-.scroll-top {
-    text-decoration: none;
-    transition: transform 0.3s ease, color 0.3s ease;
-}
+    ul {
+        li {
+            a {
 
-.scroll-top:hover {
-    transform: translateY(-5px);
-    color: #4a2cb4;
-}
+                font-family: "VT323", monospace;
+                font-weight: 500;
+                font-size: 20px;
+                color: #26175C;
+                font-style: normal;
+            }
+        }
+    }
+
+    .scroll-top {
+        text-decoration: none;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .scroll-top:hover {
+        transform: translateY(-5px);
+        color: #4a2cb4;
+    }
 
 
-footer a.text-decoration-none:hover {
-    color: #4f35af;
-}
+    footer a.text-decoration-none:hover {
+        color: #4f35af;
+    }
 
 }

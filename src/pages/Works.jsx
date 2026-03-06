@@ -15,24 +15,28 @@ const Works = () => {
       title: "GithubFinder",
       category: "search",
       image: Ad,
+          link: "http://localhost:5175/githubfinder",
     },
     {
       id: 2,
       title: "MovieSite",
       category: "Cinema",
       image: Mo,
+       link: "http://127.0.0.1:5502/movie.html",
     },
     {
       id: 3,
       title: "MusicPlayer",
       category: "Music",
       image: Pl,
+      link:"http://127.0.0.1:5503/musicplayer.html"
     },
     {
       id: 4,
       title: "ToDoApp",
       category: "Input",
       image: Do,
+      link:"http://127.0.0.1:5502/todo.html"
     },
   ];
 
@@ -61,17 +65,19 @@ const Works = () => {
         ))}
       </div>
 
-      <div className="works-grid">
-        {filteredWorks.map((work) => (
-          <div className="work-card" key={work.id}>
-            <img src={work.image} alt={work.title} />
-            <div className="overlay">
-              <h3>{work.title}</h3>
-              <span>{work.category}</span>
-            </div>
-          </div>
-        ))}
-      </div>
+ <div className="works-grid">
+  {filteredWorks.map((work) => (
+    <div className="work-card" key={work.id}>
+      <a href={work.link} target="_blank" rel="noopener noreferrer">
+        <img src={work.image} alt={work.title} />
+        <div className="overlay">
+          <h3>{work.title}</h3>
+          <span>{work.category}</span>
+        </div>
+      </a>
+    </div>
+  ))}
+</div>
     </section>
   );
 };

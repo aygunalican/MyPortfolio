@@ -15,7 +15,7 @@ const Footer = () => {
       <li className="list-inline-item mx-3"><a href="#" className=" text-decoration-none">Portfolios</a></li>
       <li className="list-inline-item mx-3"><a href="#" className=" text-decoration-none">Contact</a></li>
     </ul>
-    <p>© 2024 All rights reserved by <span>   ThemeAygun</span></p>
+    <p>© 2024 All rights reserved by <span> ThemeAygun</span></p>
     <a href="#" className="scroll-top position-absolute top-0 end-0 m-3 text-light fs-4">
       ↑
     </a>

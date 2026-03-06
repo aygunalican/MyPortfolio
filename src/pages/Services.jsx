@@ -2,7 +2,7 @@ import '../assets/css/services.css'
 
 const services = [
   { id: "01", title: "Responsive Design", desc: "Ensure your website looks great on any device." },
-  { id: "02", title: "CMS Development", desc: "User-friendly CMS solutions." },
+{ id: "02", title: "Component-Based Development", desc: "Reusable and scalable UI components." },
   { id: "03", title: "API Integrations", desc: "Integrate third-party services." },
   { id: "04", title: "Website Redesign", desc: "Modern and fresh redesigns." },
 ];

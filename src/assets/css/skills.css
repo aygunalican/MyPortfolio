@@ -5,13 +5,15 @@
   background-color: black;
   padding: 100px;
 }
-h2{
-       font-family: "Special Elite", system-ui;
+
+h2 {
+  font-family: "VT323", monospace;
   font-weight: 500;
   color: white;
 }
-p{
-       font-family: "Special Elite", system-ui;
+
+p {
+  font-family: "VT323", monospace;
   font-weight: 500;
 }
 
@@ -40,35 +42,46 @@ p{
   transition: 0.3s ease;
   border: 2px solid rgba(128, 128, 128, 0.212);
   cursor: pointer;
-  box-shadow: 4px 4px 4px #26175c;
+  transition: transform 0.2s ease;
+  box-shadow: 1px 2px 1px #26175c27;
 }
 
 .skill-card img {
   width: 48px;
   height: 48px;
   margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill-card img:hover {
+  transform: scale(1.1);
+
 }
 
 .skill-card h3 {
   margin: 5px 0;
   font-weight: 700;
-        font-family: "Special Elite", system-ui;
+  font-family: "VT323", monospace;
   font-weight: 500;
   color: #7b63d386;
 }
 
 .skill-card p {
   color: #17185c;
-        font-family: "Special Elite", system-ui;
+  font-family: "VT323", monospace;
   font-weight: 500;
+  font-size: 19px;
 
 }
 
 
 .skill-card:hover {
-  background:#26175c;
+
+  background: transparent;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   color: white;
-  transform: translateY(-8px);
+  transform: scale(1.1) translateY(8px);
 }
 
 .skill-card:hover p {
