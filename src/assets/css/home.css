@@ -159,8 +159,9 @@ overflow: hidden;
 @media (max-width: 576px) {
   
     .hero .hero-con .text-con .typewriter, span {
-        font-size: 18px;
+        font-size: 25px;
        
     
     }
+   
 }
