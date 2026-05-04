@@ -1,7 +1,7 @@
 main {
     width: 100%;
     height: auto;
-
+overflow: hidden;
     .hero {
         width: 100%;
         background-color: #000000;
@@ -19,7 +19,7 @@ main {
             flex-direction: row;
 
             align-items: center;
-            justify-content: space-between;
+         justify-content: center;
 
             .text-con {
 
@@ -31,9 +31,9 @@ main {
                 }
 
                 h1 {
-                    font-family: "VT323", monospace;
+                            font-family: "Special Elite", system-ui;
                     font-weight: 500;
-                    font-size: 70px;
+                    font-size: 50px;
                     color: #123348;
                     text-shadow: 0 0 1px rgba(255, 255, 255, 0.315);
                     overflow: hidden;
@@ -54,7 +54,8 @@ main {
 
             .img-con {
                 img {
-                    width: 700px;
+                    width: 600px;
+                    overflow: hidden;
                 }
             }
 
@@ -94,7 +95,6 @@ main {
     }
 }
 
-/* Tablet (768px - 1024px) */
 @media (max-width: 1024px) {
     .hero .hero-con {
         flex-direction: column;
@@ -109,11 +109,11 @@ main {
     }
 
     .hero .hero-con .text-con h1 {
-        font-size: 50px;
-        width: 90%;
-        /* ch-dən %ə çevirdik */
+        font-size: 20px;
+      
+  
         white-space: normal;
-        /* typewriter hələ işləsin */
+      
     }
 
     .hero .hero-con .text-con p {
@@ -121,13 +121,12 @@ main {
     }
 
     .hero .hero-con .img-con img {
-        width: 80%;
-        max-width: 500px;
-        height: auto;
+   
+    display: none;
     }
 }
 
-/* Smartfonlar (max-width: 767px) */
+
 @media (max-width: 767px) {
     .hero .hero-con {
         flex-direction: column;
@@ -142,11 +141,10 @@ main {
         margin-bottom: 15px;
     }
 
-    .hero .hero-con .text-con h1 {
-        font-size: 35px;
-        width: 95%;
-        white-space: normal;
-        letter-spacing: 2px;
+    .hero .hero-con .text-con .typewriter, span {
+        font-size: 30px;
+       
+    
     }
 
     .hero .hero-con .text-con p {
@@ -154,8 +152,15 @@ main {
     }
 
     .hero .hero-con .img-con img {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
+      display: none;
+    }
+}
+
+@media (max-width: 576px) {
+  
+    .hero .hero-con .text-con .typewriter, span {
+        font-size: 18px;
+       
+    
     }
 }

@@ -75,7 +75,7 @@ h3 {
   }
 }
 
-/* Smartfonlar (max-width: 767px) */
+
 @media (max-width: 767px) {
   .exp-edu-wrapper {
     grid-template-columns: 1fr;

@@ -79,20 +79,20 @@ header {
     button:hover {
       color: white;
       margin-top: 0;
-      border: 1px solid rgba(219, 219, 219, 0.336);
+      border: 1px solid rgba(219, 219, 219, 0.171);
       font-size: 33px;
-      background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://i.pinimg.com/originals/dc/e6/59/dce659269993ee5c55a0543ecd2f159e.gif");
+      background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://i.pinimg.com/originals/72/1b/ec/721bec9459d6d1de0ce1dc45af7c78a1.gif");
     }
 
     ul {
-      background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.315);
       backdrop-filter: blur(30px);
       -webkit-backdrop-filter: blur(20px);
       margin-top: 10px;
       border-radius: 40px;
-      border: 1px solid rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.123);
       box-shadow:
-        0 4px 8px rgba(51, 51, 51, 0.082),
+        0 2px 4px rgba(51, 51, 51, 0.082),
         inset 0 1px 0 rgba(255, 255, 255, 0.05);
       padding: 5px;
 
@@ -100,7 +100,7 @@ header {
         a {
 
 
-          color: #123348;
+          color: #ffffff;
           font-family: "VT323", monospace;
           font-weight: 300;
           font-size: 26px;
@@ -132,4 +132,14 @@ header {
   55% {
     opacity: 0.3;
   }
+}
+@media (max-width: 767px) {
+
+.subnar{
+  .navbar-nav{
+     display: none;
+  }
+  
+}
+
 }

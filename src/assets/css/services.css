@@ -41,7 +41,7 @@ color: white;
   font-weight: bold;
   opacity: 0.7;
 }
-/* Tablet (768px - 1024px) */
+
 @media (max-width: 1024px) {
   .services {
     gap: 15px;
@@ -65,7 +65,6 @@ color: white;
   }
 }
 
-/* Smartfonlar (max-width: 767px) */
 @media (max-width: 767px) {
   .services {
     gap: 10px;
