@@ -30,12 +30,12 @@ export default function ExperienceEducation() {
     {
       year: "2022 - 2026",
       title: "Computer Engineering",
-      place: "University of Denmark",
+      place: "Azerbaijan State Oil & Industry University",
     },
     {
       year: "2010 - 2021",
-      title: "Zaqtalaa School",
-      place: "AZEL"
+      title: "Zarifa Aliyeva High School",
+      place: "Zaqatala"
     },
   ];
 
