@@ -1,42 +1,42 @@
 import React, { useState } from "react";
 import '../assets/css/works.css'
-import Ad from '../assets/images/finder.png'
-import Do from '../assets/images/todo.png'
-import Mo from '../assets/images/movie.png'
-import Pl from '../assets/images/player.png'
+import Ad from '../assets/images/todoapp.png'
+import Do from '../assets/images/board.png'
+import Mo from '../assets/images/filmarchive.png'
+import Pl from '../assets/images/sweet.png'
 const Works = () => {
   const [active, setActive] = useState("All");
 
-  const categories = ["All", "Search", "Cinema", "Music"];
+  const categories = ["All", "Search", "Cinema", "Sweets"];
 
   const works = [
     {
       id: 1,
-      title: "GithubFinder",
+      title: "KanbanBoard",
       category: "search",
-      image: Ad,
-          link: "http://localhost:5175/githubfinder",
+      image: Do,
+          link: "https://kanbanboard-devjoint.vercel.app/",
     },
     {
       id: 2,
-      title: "MovieSite",
+      title: "Film Archive",
       category: "Cinema",
       image: Mo,
-       link: "http://127.0.0.1:5502/movie.html",
+       link: "https://api-react-devjoint.vercel.app/",
     },
     {
       id: 3,
-      title: "MusicPlayer",
-      category: "Music",
+      title: "Sweet Recipes",
+      category: "Sweets",
       image: Pl,
-      link:"http://127.0.0.1:5503/musicplayer.html"
+      link:"https://auth-react-devjoint.vercel.app/login"
     },
     {
       id: 4,
-      title: "ToDoApp",
-      category: "Input",
-      image: Do,
-      link:"http://127.0.0.1:5502/todo.html"
+      title: "ToDo App",
+      category: "Search",
+      image: Ad,
+      link:"https://todo-app-three-pi-50.vercel.app/"
     },
   ];
 
