@@ -49,7 +49,7 @@ const Works = () => {
     <section id="work" className="works">
       <h2 className="works-title">My Recent Works</h2>
       <p className="works-subtitle">
-        We turn your ideas into unique digital products that inspire you and
+        I turn your ideas into unique digital products that inspire you and
         your customers.
       </p>
 
