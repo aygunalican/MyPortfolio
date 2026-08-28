@@ -29,7 +29,7 @@ const Works = () => {
       title: "Sweet Recipes",
       category: "Sweets",
       image: Pl,
-      link:"https://auth-react-devjoint.vercel.app/login"
+      link:"https://auth-react-devjoint.vercel.app/"
     },
     {
       id: 4,
