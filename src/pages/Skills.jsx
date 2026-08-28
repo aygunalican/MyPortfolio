@@ -39,7 +39,7 @@ export default function Skills() {
     <section id="skills" className="skills-section">
       <h2 className>My Skills</h2>
       <p className="subtitle">
-        We put your ideas and wishes into a unique web project.
+        I put your ideas and wishes into a unique web project.
       </p>
 
       <div className="skills-container">
